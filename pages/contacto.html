@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - DEV NEXUS LINE</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.jpg" alt="DEV NEXUS LINE" class="logo-img">
+                    <span class="logo-text">DEV NEXUS LINE</span>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                    <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Contacto -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte a transformar tu negocio</p>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Hablemos de tu proyecto</h2>
+                    <p>¿Tienes una idea en mente? Contáctanos y juntos hagámosla realidad.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>  <!-- Email -->
+                            </div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>info@devnexusline.com</p>
+                                <p>soporte@devnexusline.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>  <!-- phone -->
+                            </div>
+                            <div class="method-info">
+                                <h3>Teléfono</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-laptop-code"></i>  <!-- Oficina -->
+                            </div>
+                            <div class="method-info">
+                                <h3>Oficina</h3>
+                                <p>Av. Principal #123</p>
+                                <p>Ciudad, País 12345</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Síguenos en redes</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Servicio de interés</label>
+                            <select id="service" name="service">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="optimizacion">Optimización de Procesos</option>
+                                <option value="software">Desarrollo de Software</option>
+                                <option value="web">Desarrollo Web</option>
+                                <option value="consultoria">Consultoría Tecnológica</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" checked>
+                                <span class="checkmark"></span>
+                                Quiero recibir noticias y actualizaciones
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="../images/logo-white.png" alt="DEV NEXUS LINE" class="footer-logo">
+                    <p>Transformando ideas en soluciones digitales innovadoras.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>Email: info@devnexusline.com</li>
+                        <li>Teléfono: +1 (555) 123-4567</li>
+                        <li>Dirección: Av. Principal #123, Ciudad</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DEV NEXUS LINE. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
